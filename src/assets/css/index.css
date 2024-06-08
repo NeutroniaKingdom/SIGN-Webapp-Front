@@ -1,0 +1,6 @@
+@import url('./base/base.css');
+@import url('./component/btn.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

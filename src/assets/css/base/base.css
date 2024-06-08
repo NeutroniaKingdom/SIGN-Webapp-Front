@@ -1,0 +1,22 @@
+@layer base {
+  body {
+      @apply bg-gray-100 text-gray-800 min-h-screen font-sans antialiased leading-tight overflow-x-hidden;
+  }
+
+  #root {
+      @apply min-h-screen flex flex-col;
+  }
+
+  #root>main {
+      @apply flex-1 flex flex-col;
+  }
+
+
+  
+      /* #root > main > div {
+          @apply flex-1 flex flex-col; 
+      }  */
+  
+
+  /* Sa met toute les div en flex col c'est chiant  */
+}
