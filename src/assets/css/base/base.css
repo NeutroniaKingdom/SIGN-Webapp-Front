@@ -10,7 +10,10 @@
   #root>main {
       @apply flex-1 flex flex-col;
   }
-
+  
+  .wrapper {
+    @apply max-w-[1440px] mx-auto px-8
+  }
 
   
       /* #root > main > div {
