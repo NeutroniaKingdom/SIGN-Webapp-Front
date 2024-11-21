@@ -6,6 +6,7 @@ import UrlFront from '../../shared/constants/UrlFront';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
+  
   const [isDarkMode, setIsDarkMode] = useState(() => {
     // Récupérer la préférence de l'utilisateur depuis localStorage
     const savedMode = localStorage.getItem('theme');
